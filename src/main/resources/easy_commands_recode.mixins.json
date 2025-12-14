@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "fesuoy.mods.easy_commands_recode.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "TrunkPlacerMixin",
+      "ProjectileMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "easy_commands_recode",
+	"version": "${version}",
+	"name": "Easy Commands Recode",
+	"description": "A mod that adds commands for easier usage. Remake of the original!",
+	"authors": [
+		"Fesuoy"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/Fesuoy1",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/easy_commands_recode/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fesuoy.mods.easy_commands_recode.EasyCommandsRecode"
+		],
+		"client": [
+			"fesuoy.mods.easy_commands_recode.EasyCommandsRecodeClient"
+		]
+	},
+	"mixins": [
+		"easy_commands_recode.mixins.json",
+		{
+			"config": "easy_commands_recode.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

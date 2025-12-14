@@ -1,0 +1,11 @@
+{
+  "easy_commands_recode.command.repair.failure": "The item you are holding is not repairable.",
+  "easy_commands_recode.command.repairinventory.failure": "You have no items that can be repaired.",
+  "easy_commands_recode.command.enchantsword.failure": "The item you are holding is not a sword.",
+  "easy_commands_recode.command.setexplosionpower.success": "Projectile explosion power set to: %s",
+  "commands.generic.not_a_player": "Source must be a player to use this command.",
+  "easy_commands_recode.command.rename.success": "Renamed item to: %s",
+  "easy_commands_recode.command.rename.failure.noitem": "You are not holding an item.",
+  "easy_commands_recode.command.killall.success": "Killed all entities.",
+  "easy_commands_recode.command.killall.success.players": "Killed all players and entities."
+}
